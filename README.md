@@ -15,4 +15,9 @@ Bu çalışmada bir sisteme email ve şifresiyle giriş yapmaya çalışan kulla
 
 1-> Öncelikle create table scriptlerini çalıştırın.  
 2-> Daha sonra LoginLogProcedure dosyasını çalıştırarak procedure oluşturun.  
-3-> Procedure üzerinden giriş bilgilerini girerek çalıştırabilirsiniz.
+3-> Procedure üzerinden giriş bilgilerini girerek çalıştırabilirsiniz.  
+
+
+Study-3  
+
+Bu çalışmada bir veritabanı üzerinde satılan ürün kayıtlarına göre bir ürünün max,min ve ortalama satış fiyatları, üründen kaçç adet satıldığını raporlayan bir view oluşrulmuştur. View içersinde order by komutu kullanılmadığı için sıralama işlemini view çağrılırken yapılmalıdır.  
