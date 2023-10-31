@@ -21,3 +21,16 @@ Bu çalışmada bir sisteme email ve şifresiyle giriş yapmaya çalışan kulla
 Study-3  
 
 Bu çalışmada bir veritabanı üzerinde satılan ürün kayıtlarına göre bir ürünün max, min ve ortalama satış fiyatları, üründen kaç adet satıldığını raporlayan bir view oluşturulmuştur. View içerisinde order by komutu kullanılmadığı için sıralama işlemini view çağrılırken yapılmalıdır.  
+
+
+Study-4  
+
+Bu çalışmada çalışanların iş yerine giriş ve çıkış kayıtlarını takip eden ve işlemleri log tablosuna yazan bir uygulama yapılmıştır. Yoğun olarak yapılması gereken işlemlerde performansı arttırmak için bir stored procedure oluşturulmuştur. Stored procedure klasik ad hoc query’e göre query, optimize, compile, execute işlemlerini bir kez yaparak kodu kaydeder. Bu sayede kod daha hızlı çalışır.  
+
+1-> WorkerLog_Table.sql ve Worker_Table.sql scriptlerini çalıştırarak tabloları oluşturun.  
+2 -> Worker_Table tablosuna kullanıcı bilgerini kayıt edin.  
+3-> Worker_Log.sql scriptini çalıştırarak procedure oluşturun.  
+Not: Stored procedure veritabanı dosyaları içerisinde programmability altında oluşmuş olacaktır.  
+
+
+ 
